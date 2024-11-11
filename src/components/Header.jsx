@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { FaAlignJustify } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
 
-let Navlist = [{title: "Home", path: "/home"}, {title: "About", path: "/about"}, {title: "Contact", path: "/contact"}, {title: "Billings", path: "/billings"}, {title: "Payments", path: "/payments"}, {title: "Signup", path: "/signup"}, {title: "Login", path: "/login"}
+let Navlist = [{title: "Home", path: "/home"}, {title: "About", path: "/about"}, {title: "Contact", path: "/contact"}, {title: "Billings", path: "/billings"}, {title: "Payments", path: "/payments"}, {title: "Signup", path: "/signup"}, {title: "Login", path: "/login"}, {title: "Feedback", path: "/feedback"}
 ]
 
 function Header() {

@@ -8,8 +8,9 @@ import Home from './components/Home.jsx'
 import Contact from './components/Contact.jsx'
 import Signup from './components/signup.jsx'
 import Login from './components/login.jsx'
+import Feedback from './components/Feedback.jsx'
 const router = createBrowserRouter([{
-  path: "/", element: <App/>, children: [{path: "/about", element: <About/>}, {path: "/home", element: <Home/>, index: true},{path:"/contact", element: <Contact/>},{path: "/signup", element: <Signup/>}, {path: "/login", element: <Login/>}
+  path: "/", element: <App/>, children: [{path: "/about", element: <About/>}, {path: "/home", element: <Home/>, index: true},{path:"/contact", element: <Contact/>},{path: "/signup", element: <Signup/>}, {path: "/login", element: <Login/>}, {path: "/feedback", element: <Feedback/>}
 
   ]
 }])
