@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import Feedback from './Feedback'
 
 function Footer() {
   return (
